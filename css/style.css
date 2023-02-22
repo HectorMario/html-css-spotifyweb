@@ -81,17 +81,17 @@ img{
 /*  */
 
 .logo{
-    height: 7vh;
+    height: 10vh;
     width: 80%;
     max-width: 170px;
 }
 
 .home{
-    height: 65vh;
+    height: 60vh;
 }
 
 .user{
-    height: 7vh;
+    height: 10vh;
 }
 
 /* reprodu */
@@ -186,8 +186,13 @@ strong{
 
 /* sections img */
 
-h2{
+h2, h4{
     color: #fff;
+}
+
+.tittle{
+    text-align: center;
+    font-size: calc(.5rem + .4vw);
 }
 
 /* reproduc */
@@ -264,11 +269,11 @@ h2{
 }
 
 .arri .white{
-    font-size: 1.2rem;
+    font-size: 20px;
 }
 
 .fa-circle-play::before{
-    font-size: 1.5rem;
+    font-size: 30px;
 }
 
 
