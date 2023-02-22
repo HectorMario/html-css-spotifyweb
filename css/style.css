@@ -83,10 +83,8 @@ img{
 
 .logo{
     height: 7vh;
-    background-image: url(../img/logo.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    
+    width: 80%;
+    max-width: 170px;
 }
 
 .home{
@@ -101,7 +99,6 @@ img{
 
 div.bar.repro{
     padding: .7rem;
-    gap: 1rem;
 }
 
 .info{
@@ -199,12 +196,12 @@ h2{
 .info{
     display: flex;
     align-items: center;
-    gap: 1rem;
-    min-width: 220px;
+    gap: 1vw;
 }
 .que{
     width: 20%;
     max-width: 50px;
+    min-width: 30px;
 }
 
 .log{
@@ -216,8 +213,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: end;
-    gap: 1rem;
-    min-width: 160px;
+    gap: 1vw;
 }
 
 .barr{
@@ -255,9 +251,6 @@ h2{
     font-size: .8rem;
 }
 
-.arri .white{
-    font-size: 1.3vw;
-}
 
 .gray{
     color: rgb(154, 154, 154);
@@ -268,13 +261,16 @@ h2{
     height: 50%;
     justify-content: center;
     align-items: center; 
-    gap: 1rem;  
+    gap: 1.5rem;  
 }
 
-div.bar.repro{
-    min-width: 660px;
+.arri .white{
+    font-size: 1.5rem;
 }
 
+.fa-circle-play::before{
+    font-size: 2.3rem;
+}
 
 
 
