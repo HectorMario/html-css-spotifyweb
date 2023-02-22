@@ -56,7 +56,6 @@ img{
     display: flex;
     flex-direction: column;
     margin: 1rem;
-    gap: 2rem;
 }
 
 .content{
@@ -80,19 +79,23 @@ img{
 
 /*  */
 
+.left .center{
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .logo{
-    height: 10vh;
     width: 80%;
     max-width: 170px;
 }
 
 .home{
-    height: 60vh;
+    margin-top: 1rem;
 }
 
-.user{
-    height: 10vh;
-}
+
 
 /* reprodu */
 
@@ -191,8 +194,25 @@ h2, h4{
 }
 
 .tittle{
+    display: flex;
+    flex-direction: column;
     text-align: center;
     font-size: calc(.5rem + .4vw);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+p{
+    color: #7a7a7a;
+    font-weight: bolder;
+}
+
+.right .center{
+    gap: 2rem;
+}
+
+.category{
+    line-height: 2;
 }
 
 /* reproduc */
