@@ -33,7 +33,6 @@ img{
 .left{
     width: 15%;
     background-color: black;
-    height: 100%;
     min-width: 200px;
 }
 
@@ -261,15 +260,15 @@ h2{
     height: 50%;
     justify-content: center;
     align-items: center; 
-    gap: 1.5rem;  
+    gap: 2vw;  
 }
 
 .arri .white{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .fa-circle-play::before{
-    font-size: 2.3rem;
+    font-size: 1.5rem;
 }
 
 
