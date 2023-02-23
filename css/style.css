@@ -15,18 +15,17 @@ img{
 
 .up{
     display: flex;
-    background-color: aqua;
-    height: 90vh;
+    background-color: black;
+    height: calc(100vh - 80px);
     width: 100%;
 }
 
 .bar{
     display: flex;
-    height: 10vh;
     background-color: #282828;
+    align-items: center;
     width: 100%;
-    position: sticky;
-    top: 0;
+    height: 80px;
 
 }
 
@@ -80,7 +79,7 @@ img{
 /*  */
 
 .left .center{
-    height: 88vh;
+    height: calc(100vh - 100px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -171,6 +170,9 @@ strong{
     background-color: rgb(7, 7, 7, .6);
     height: auto;
     margin-bottom: 1rem;
+    z-index: 300;
+    position: sticky;
+    top: 0;
 }
 
 .bar a{
@@ -231,7 +233,7 @@ p{
 }
 .que{
     width: 20%;
-    max-width: 50px;
+    max-width: 60px;
     min-width: 30px;
 }
 
@@ -303,7 +305,46 @@ p{
     font-size: 30px;
 }
 
+/* hover */
+div.img{
+    position: relative;
+}
 
+
+.hover-repro{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(7, 7, 7, .6);
+}
+
+div.img:hover .hover-repro{
+    display: flex;
+    cursor: pointer;
+}
+
+a.bello:hover{
+    padding: 1rem 2rem;
+    border-radius: 40px;
+}
+
+li:hover a{
+    color: #fff;
+}
+
+li:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+li:hover .fa-plus:before{
+    background-color: #fff;
+}
 
 /* responsive */
 
