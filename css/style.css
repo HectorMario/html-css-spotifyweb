@@ -346,6 +346,27 @@ li:hover .fa-plus:before{
     background-color: #fff;
 }
 
+.gray:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+.ball{
+    display: none;
+}
+
+.barr:hover{
+    cursor: pointer;
+}
+
+.barr:hover .porcen{
+    background-color: greenyellow;
+}
+
+.barr:hover .ball{
+    display: block;
+}
+
 /* responsive */
 
 @media screen and (max-width: 1100px) {
