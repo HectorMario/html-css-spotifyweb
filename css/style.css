@@ -367,6 +367,16 @@ li:hover .fa-plus:before{
     display: block;
 }
 
+.fa-solid:hover{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.fa-circle-play:hover{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
 /* responsive */
 
 @media screen and (max-width: 1100px) {
