@@ -211,6 +211,10 @@ h2, h4{
     margin-top: 1rem;
 }
 
+div.img::before{
+    content: '';
+}
+
 p{
     color: #7a7a7a;
     font-weight: bolder;
@@ -255,6 +259,10 @@ p{
     background-color: gray;
     border-radius: 20px;
     
+}
+
+.pause{
+    line-height: 2;
 }
 
 .piu{
